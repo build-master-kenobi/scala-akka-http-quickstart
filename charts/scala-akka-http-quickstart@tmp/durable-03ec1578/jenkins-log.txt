@@ -1,0 +1,5 @@
++ make tag
+sed -i -e "s/version:.*/version: 0.0.4/" Chart.yaml
+sed -i -e "s/repository: .*/repository: 346319152574.dkr.ecr.us-west-2.amazonaws.com\/build-master-kenobi\/scala-akka-http-quickstart/" values.yaml
+sed -i -e "s/tag: .*/tag: 0.0.4/" values.yaml
+git add --all
