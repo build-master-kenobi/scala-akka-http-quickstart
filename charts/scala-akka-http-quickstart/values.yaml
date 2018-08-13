@@ -3,8 +3,8 @@
 # Declare variables to be passed into your templates.
 replicaCount: 1
 image:
-  repository: draft
-  tag: dev
+  repository: 172.20.123.64:5000/build-master-kenobi/scala-akka-http-quickstart
+  tag: 0.0.2
   pullPolicy: IfNotPresent
 service:
   name: scala-akka-http-quickstart
